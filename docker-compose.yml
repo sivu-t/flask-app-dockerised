@@ -1,0 +1,7 @@
+web:
+  build: .
+  container_name: API
+  ports:
+    - "4000:4000"
+  volumes:
+    - .:/test
